@@ -54,8 +54,18 @@
               family, and co-workers.
             </p>
             <form class="hero__input-button--container" autocomplete="on">
-              <input type="email" id="email" placeholder="Enter your email…" required/>
-              <input type="submit" id="get" class="get-started" value="Get Started" />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email…"
+                required
+              />
+              <input
+                type="submit"
+                id="get"
+                class="get-started"
+                value="Get Started"
+              />
             </form>
           </div>
           <div class="hero__img">
@@ -66,23 +76,28 @@
       <!--@@@@@@@@@@@@ section-stay @@@@@@@@@-->
       <section class="section-stay--contain-bg-img">
         <div class="section-stay--center-on-mobile">
-          <div class="section-stay__text-img--container section-stay--dflex-direction">
+          <div
+            class="section-stay__text-img--container section-stay--dflex-direction"
+          >
             <div class="section-stay__text">
               <h2>Stay productive, wherever you are</h2>
               <p>
-                Never let location be an issue when accessing your files. Fylo has
-                you covered for all of your file storage needs.
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
               </p>
               <p class="section-stay__text__p2">
                 Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments required!
+                colleagues for live collaboration. No email attachments
+                required!
               </p>
-              
+
               <div class="arrow-next-to-link">
-                <a href="#">See how Fylo works <i class="fa-solid fa-circle-arrow-right"></i></a>
+                <a href="#"
+                  >See how Fylo works
+                  <i class="fa-solid fa-circle-arrow-right"></i
+                ></a>
               </div>
-              
-              
+
               <div class="section-stay__card">
                 <blockquote>
                   Fylo has improved our team productivity by an order of
@@ -94,12 +109,8 @@
                     <img src="./images/avatar-testimonial.jpg" alt="avatar" />
                   </div>
                   <div class="text-avatar">
-                    <div>
-                      <p id="kyle">Kyle Burton</p>
-                    </div>
-                    <div>
-                      <p id="founder">Founder & CEO, Huddle</p>
-                    </div>
+                    <p id="kyle">Kyle Burton</p>
+                    <p id="founder">Founder & CEO, Huddle</p>
                   </div>
                 </div>
               </div>
@@ -112,7 +123,7 @@
       </section>
       <!--@@@@@@@@@@@@ section-get @@@@@@@@@-->
       <section class="section-get">
-        <div>
+        <div class="section-get__text">
           <h2>Get early access today</h2>
           <p>
             It only takes a minute to sign up and our free starter tier is
@@ -120,43 +131,66 @@
             would be happy to help you.
           </p>
         </div>
-        <div>
-          <form class="section-get__form">
-            <input class="section-get__form__email" type="email" placeholder="email@example.com"/>
-            <input class="section-get__form__submit" type="submit" value="Get Started For Free"/>
+        <div class="section-get__form">
+          <form class="section-get__form--dflex">
+            <input
+              class="section-get__form__email"
+              type="email"
+              placeholder="email@example.com"
+            />
+            <input
+              class="section-get__form__submit"
+              type="submit"
+              value="Get Started For Free"
+            />
           </form>
         </div>
       </section>
     </main>
     <!--@@@@@@@@@@@@@@@@@ footer @@@@@@@@@@@-->
     <footer>
-      <div class="footer-flex-container">
-        <div class="footer-logo">
-          <div>
-            <img  src="./images/logo-light.svg" alt="logo" />
-          </div>
+      <div class="footer-logo">
+        <div>
+          <img src="./images/logo-light.svg" alt="logo" />
         </div>
-        <div class="footer-info">
-          <div class="footer-info--dflex">
-            <img src="./images/icon-phone.svg" alt="phone" />
-            <p>Phone: +1-543-123-4567</p>
-          </div>
-          <div class="footer-info--dflex">
-            <img src="./images/icon-email.svg" alt="email" />
-            <p>example@fylo.com</p>
+      </div>
+      <div class="footer-flex-container">
+        <div>
+          <div class="footer-info">
+            <div class="footer-info--dflex margin-bottom">
+              <img src="./images/icon-phone.svg" alt="phone" />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="footer-info--dflex">
+              <img src="./images/icon-email.svg" alt="email" />
+              <p>example@fylo.com</p>
+            </div>
           </div>
         </div>
         <div class="footer-links">
           <div class="footer-links--dgrid">
-            <a href="">About Us</a><a href="">Contact Us</a><a href="">Jobs</a><a href="">Terms</a
-            ><a href="">Press</a><a href="">Privacy</a><a href="">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Jobs</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer-links--dgrid2">
+            <a href="#">Contact Us</a>
+            <a href="">Terms</a>
+            <a href="#">Privacy</a>
           </div>
         </div>
         <div class="footer-social-media">
           <div class="footer-social-media--dflex">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+            <div class="brands--dflex-center">
+              <i class="fa-brands fa-facebook-f facebook--padding"></i>
+            </div>
+            <div class="brands--dflex-center twitter--padding">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="brands--dflex-center instagram--padding">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
           </div>
         </div>
       </div>
